@@ -30,7 +30,7 @@ class Persona:
 
     @property
     def apellido(self):
-        return self._nombre
+        return self._apellido
     @apellido.setter
     def apellido(self, apellido):
         self._apellido=apellido
